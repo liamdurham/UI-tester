@@ -1,0 +1,19 @@
+/* Add application styles & imports to this file! */
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://unpkg.com/@coreui/coreui/dist/css/coreui.min.css");
+* {
+  font-family: 'Roboto', Arial, sans-serif;
+  color: rgb(63, 63, 63);
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  flex-flow: row-reverse wrap;
+}

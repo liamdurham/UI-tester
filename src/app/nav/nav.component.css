@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*** Nav **************************************************************/
+
+#navMenuChunk
+{     
+float:right;
+overflow: hidden;
+position: relative;
+background: white;
+}
+#navMenuChunk:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.button:hover
+{
+background-color: rgb(190, 226, 248);    
+}
+.button, button {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 2px;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+.fancy-button {
+  background-color: none;
+  color: #1976d2;
+}
+.fancy-button i.material-icons {
+  color: #1976d2;
+  background-color: none;
+  padding-right: 4px;
+}
