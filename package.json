@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "rxjs": "6.5.2",
-    "jquery": "3.4.1",
+    "jquery": "3.5.0",
     "core-js": "2.6.9",
     "zone.js": "0.9.1",
     "material": "0.3.13",
